@@ -49,3 +49,26 @@ $container-max-widths: (
 .w-95 {
     width: 95%;
 }
+
+label {
+  font-weight: 500;
+}
+
+.bg-sidebar {
+  background-image: url(../images/bg-sidebar-mobile.svg);
+  background-size: cover;
+  width: 100vw;
+  height: 13%;
+  top: 0;
+  left: 0;
+}
+
+.plan {
+  cursor: pointer;
+}
+
+.plan:hover,
+.plan:focus {
+  outline: 1px solid darkblue;
+}
+

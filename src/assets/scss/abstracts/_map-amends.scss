@@ -5,6 +5,8 @@ $custom-colors: (
     "dark-blue": hsl(213, 96%, 18%),
     "orange": hsl(25, 97%, 72%),
     "strawberry": hsl(354, 84%, 57%),
+    "cool-gray": hsl(229, 24%, 87%),
+    "light-gray": hsl(230,75%,98.43%)
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
