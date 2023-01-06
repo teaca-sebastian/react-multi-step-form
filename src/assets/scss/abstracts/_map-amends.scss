@@ -1,0 +1,10 @@
+$custom-colors: (
+    "blue": hsl(243, 100%, 62%),
+    "blue-hover": hsl(228, 100%, 84%),
+    "light-blue": hsl(206, 94%, 87%),
+    "dark-blue": hsl(213, 96%, 18%),
+    "orange": hsl(25, 97%, 72%),
+    "strawberry": hsl(354, 84%, 57%),
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
