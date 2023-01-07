@@ -3,6 +3,8 @@ import Button from "react-bootstrap/Button"
 
 import { plans, addonsList } from "../data/data"
 
+// TO DO: i belive creating the schema and submit functions here is best
+
 export const Confirm = ({ formData, setFormData, currentStep, setCurrentStep }) => {
 
     const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1);
