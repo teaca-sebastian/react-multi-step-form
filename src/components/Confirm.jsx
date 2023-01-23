@@ -62,7 +62,7 @@ export const Confirm = ({ formData, setFormData, currentStep, setCurrentStep }) 
             </div>
             <div className="row">
                 <div className="col-12 d-flex">
-                <Button className="text-muted bg-transparent border-0 w-auto"
+                    <Button className="text-muted bg-transparent border-0 w-auto"
                         onClick={() => {
                             setCurrentStep(currentStep - 1)
                         }}>
